@@ -1,0 +1,30 @@
+How to compile:
+Type 'make' and an executable will be made called 'mychmod'
+Type 'make clean' to remove 'mychmod'
+You can also manually compile by typing 'gcc Jordan_Nicholas_Lab11.c -o mychmod'
+
+Usage: ./mychmod -OPTION1 permission[s] [-OPTION2  permission[s]....] ... FILE1 [FILE2....]
+
+Example: ./mychmod -u rw -G x -O rwx program.c
+This example alters the following permissions for program.c:
+1.) Adds read and write permissions for owner
+2.) Removes execute permission for group
+3.) Removes read, write and execute permissions for other users
+
+Options:
+1.) -u/U to change owner permissions
+2.) -g/G to change group permissions
+3.) -o/O to change other user permissions
+- Lowercase adds permissions
+- Uppercase removes permissions
+
+Permissions:
+1.) r = Read permissions
+2.) w = Write permissions
+3.) x = Executable permissions
+
+Return Status Codes:
+0 - successful execution of command
+1 - command cannot be properly parsed
+2 - file does not exist or you don't have permissions to change permissions
+
