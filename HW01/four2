@@ -1,0 +1,33 @@
+Filesystem      1K-blocks      Used  Available Use% Mounted on
+udev              8140164         0    8140164   0% /dev
+tmpfs             1634580      7984    1626596   1% /run
+/dev/sda3        68684080  38235652   26916396  59% /
+tmpfs             8172892     25740    8147152   1% /dev/shm
+tmpfs                5120         4       5116   1% /run/lock
+tmpfs             8172892         0    8172892   0% /sys/fs/cgroup
+/dev/loop0         406272    406272          0 100% /snap/netbeans/10
+/dev/loop4          91264     91264          0 100% /snap/core/7917
+/dev/loop5         189312    189312          0 100% /snap/eclipse/40
+/dev/loop3         682496    682496          0 100% /snap/android-studio/78
+/dev/loop1          91264     91264          0 100% /snap/core/7713
+/dev/loop2         690944    690944          0 100% /snap/android-studio/80
+/dev/sda1          523244      6232     517012   2% /boot/efi
+/dev/sda4      1819395360 139164012 1587741316   9% /home
+tmpfs             1634576        32    1634544   1% /run/user/1001
+
+Filesystem        Inodes   IUsed     IFree IUse% Mounted on
+udev             2035041     573   2034468    1% /dev
+tmpfs            2043223    2478   2040745    1% /run
+/dev/sda3        4399104 1056943   3342161   25% /
+tmpfs            2043223      61   2043162    1% /dev/shm
+tmpfs            2043223       7   2043216    1% /run/lock
+tmpfs            2043223      18   2043205    1% /sys/fs/cgroup
+/dev/loop0          3824    3824         0  100% /snap/netbeans/10
+/dev/loop4         12829   12829         0  100% /snap/core/7917
+/dev/loop5          1578    1578         0  100% /snap/eclipse/40
+/dev/loop3          3405    3405         0  100% /snap/android-studio/78
+/dev/loop1         12827   12827         0  100% /snap/core/7713
+/dev/loop2          3432    3432         0  100% /snap/android-studio/80
+/dev/sda1              0       0         0     - /boot/efi
+/dev/sda4      115597312  111124 115486188    1% /home
+tmpfs            2043223      30   2043193    1% /run/user/1001
